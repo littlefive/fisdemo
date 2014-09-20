@@ -11,7 +11,7 @@
 {%block name="content"%}
     <div id="wrapper">
         <div id="sidebar">
-            {%* 通过widget插件加载模块化页面片段，name属性对应文件路径,...模块名:文件目录路径 *%}
+            {%* 通过widget插件加载模块化页面片段，name属性对应文件路径,模块名:文件目录路径 *%}
             {%widget
                 name="common:widget/sidebar/sidebar.tpl"
                 data=$docs
